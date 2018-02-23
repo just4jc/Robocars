@@ -1,7 +1,7 @@
 
 # Building a small scale autonomous driving car using machine learning. 
 
-This guide is based on the open source [DIY Robocars](https://diyrobocars.com/) project so first of all, a huge thank you to that community and its contributors.
+This project is based on the open source [DIY Robocars](https://diyrobocars.com/) project so first of all, a huge thank you to that community and its contributors.
 
 What I am going to build is a self-driving car at a 1/16 scale. The overall cost of the project will be around £250, depending on where you purchase parts and how good you are at shoplifting.
 
@@ -17,10 +17,10 @@ I'll look at each of the following steps in turn:
 
 ## 1. Overall goals
 
-The main goal of this project is to focus on the learning experience as a whole. 
-- Get a minimum viable vehicle running in a month! 
-- Vehicle drives autonomously between taped lines
-- Duct tape, chewing gum, and superglue allowed! 
+The main goal of this project is to focus on the learning experience as a whole. The objective is to make and race pro-level autonomous cars on a budget. That means it's smaller than regular cars (from go-kart size, down to 1/16th scale) and can be used indoors.
+
+But just because it's small and cheap doesn't mean that it can't run real autonomous car software on them. Rather than doing all processing on-board, this DIY Robocar tend to transmits the data from it on-board sensors (cameras, sonar, lidar, radar, GPS or whatever else you have) via Wifi to a laptop that runs pro-grade AI and robotics software, including TensorFlow, ROS and the rest of the Udacity Self-Driving Car nanodegree toolchain.
+
 
 ## 2. Hardware
 
@@ -35,7 +35,7 @@ Here is the *bill of materials* for the robocar
 | Amazon     | 22          | Pi power       | 1   | Portable Charger iMuto 20000mAh Compact Power Bank External Battery with Smart LED Display Battery Pack for iPhone 7 6 6S Plus, Nintendo Switch, iPad, Samsung Galaxy, Smart Phones and More (Black) |
 | Amazon     | 27          | Camera         | 1   | Raspberry Pi New Wide Angle Fish-Eye Camera   |
 | Amazon     |  6	   | Jumper cables  | 1   | Elegoo 120pcs Multicolored Dupont Wire 40pin Male to Female, 40pin Male to Male, 40pin Female to Female Breadboard Jumper Wires Ribbon Cables Kit for arduino      						|
-| HobbyKing    | 97          | Car            | 1   | Basher 1/16 4wd mini monster truck v2 - bad bug (ARR)                                                                                                                  |
+| HobbyKing    | 97          | Car            | 1   | Basher 1/16 4WD Mini Monster Truck V2 - Bad Bug (ARR)                                                                                                                  |
 | HobbyKing    | 17          | Batteries      | 2   | Turnigy 1800mAh 2s 20c lipo-pack 
 | HobbyKing    | 10          | Charger        | 1   | Turnigy E3 Compact 2S/3S Lipo Charger 100-240v (UK Plug)         |
 | HobbyKing    |  2          | Battery Bag    | 1   | Turnigy® Fire Retardant LiPoly Battery Bag (190x68x50mm) (1pc)  |
