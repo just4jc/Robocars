@@ -29,17 +29,14 @@ Here is the *bill of materials* for the robocar
 
 | Supplier     | Approximate Price [£] | Tag  | Qty | Part description                                                                                                                                                       |
 |--------------|-------------|----------------|-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Amazon     | 31          | R Pi           | 1   | Raspberry Pi 3 Model B Quad Core CPU 1.2 GHz 1 GB RAM Motherboard
- USB                                                                                 |
+| Amazon     | 31          | R Pi           | 1   | Raspberry Pi 3 Model B Quad Core CPU 1.2 GHz 1 GB RAM Motherboard                                                                                 |
 | Amazon     | 11          | SD             | 1   | SanDisk Ultra 32GB microSDHC Memory Card + SD Adapter with A1 App Performance up to 98MB/s, Class 10, U1 FFP                                                                         |
 | Amazon     |  9          | Servo Driver   | 1   | HALJIA 16-Channel 12-bit PWM Servo Motor Driver I2C Module Board PCA9685 For Arduino / Robot / Raspberry Pi HALJIA                                            |
 | Amazon     | 22          | Pi power       | 1   | Portable Charger iMuto 20000mAh Compact Power Bank External Battery with Smart LED Display Battery Pack for iPhone 7 6 6S Plus, Nintendo Switch, iPad, Samsung Galaxy, Smart Phones and More (Black) |
-| Amazon     | 27          | Camera         | 1   | Raspberry Pi New Wide Angle Fish-Eye Camera
-SainSmart                                                                                     |
-| Amazon       |  6	     | Jumper cables  | 1pct| Elegoo 120pcs Multicolored Dupont Wire 40pin Male to Female, 40pin Male to Male, 40pin Female to Female Breadboard Jumper Wires Ribbon Cables Kit for arduino      						|
+| Amazon     | 27          | Camera         | 1   | Raspberry Pi New Wide Angle Fish-Eye Camera   |
+| Amazon     |  6	   | Jumper cables  | 1   | Elegoo 120pcs Multicolored Dupont Wire 40pin Male to Female, 40pin Male to Male, 40pin Female to Female Breadboard Jumper Wires Ribbon Cables Kit for arduino      						|
 | HobbyKing    | 97          | Car            | 1   | Basher 1/16 4wd mini monster truck v2 - bad bug (ARR)                                                                                                                  |
 | HobbyKing    | 17          | Batteries      | 2   | Turnigy 1800mAh 2s 20c lipo-pack 
-                                                                                             |
 | HobbyKing    | 10          | Charger        | 1   | Turnigy E3 Compact 2S/3S Lipo Charger 100-240v 
 (UK Plug)         |
 | HobbyKing    |  2          | Battery Bag    | 1   | Turnigy® Fire Retardant LiPoly Battery Bag (190x68x50mm) 
