@@ -17,9 +17,9 @@ I'll look at each of the following steps in turn:
 
 ## 1. Overall goals
 
-The main goal of this project is to focus on the learning experience as a whole. The objective is to make and race pro-level autonomous cars on a budget. That means it's smaller than regular cars (from go-kart size, down to 1/16th scale) and can be used indoors.
+The main goal of this project is to focus on the learning experience as a whole. The objective is to make and race pro-level autonomous car on a budget. That means it's smaller than the regular car (from go-kart size, down to 1/16th scale) and can be used indoors.
 
-But just because it's small and cheap doesn't mean that it can't run real autonomous car software on them. Rather than doing all processing on-board, this DIY Robocar tend to transmits the data from it on-board sensors (cameras, sonar, lidar, radar, GPS or whatever else you have) via Wifi to a laptop that runs pro-grade AI and robotics software, including TensorFlow, ROS and the rest of the Udacity Self-Driving Car nanodegree toolchain.
+But just because it's small and cheap doesn't mean that it can't run real autonomous car software on them. Rather than doing all processing on-board, this DIY Robocar tends to transmit the data from its on-board sensors (cameras, sonar, lidar, radar, GPS or whatever else I have) via Wifi to a laptop that runs pro-grade AI and robotics software, including TensorFlow, ROS and the rest of the Udacity Self-Driving Car nanodegree toolchain.
 
 
 ## 2. Hardware
