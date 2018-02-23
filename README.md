@@ -37,11 +37,9 @@ Here is the *bill of materials* for the robocar
 | Amazon     |  6	   | Jumper cables  | 1   | Elegoo 120pcs Multicolored Dupont Wire 40pin Male to Female, 40pin Male to Male, 40pin Female to Female Breadboard Jumper Wires Ribbon Cables Kit for arduino      						|
 | HobbyKing    | 97          | Car            | 1   | Basher 1/16 4wd mini monster truck v2 - bad bug (ARR)                                                                                                                  |
 | HobbyKing    | 17          | Batteries      | 2   | Turnigy 1800mAh 2s 20c lipo-pack 
-| HobbyKing    | 10          | Charger        | 1   | Turnigy E3 Compact 2S/3S Lipo Charger 100-240v 
-(UK Plug)         |
-| HobbyKing    |  2          | Battery Bag    | 1   | Turnigy® Fire Retardant LiPoly Battery Bag (190x68x50mm) 
-(1pc)  |
-|              | **232**     |                |    |                                                                                                                                                                      |
+| HobbyKing    | 10          | Charger        | 1   | Turnigy E3 Compact 2S/3S Lipo Charger 100-240v (UK Plug)         |
+| HobbyKing    |  2          | Battery Bag    | 1   | Turnigy® Fire Retardant LiPoly Battery Bag (190x68x50mm) (1pc)  |
+| **Total**   | **232**     |                |     |
 
 The Exceed Magnet as recommended on [DIY Robocars] (https://diyrobocars.com/) is basically sold out in the UK, so I spent some good time trying to figure out an alternative. From ebay to aliexpress to amazon to hobbyking untill I found the 1/16 truck chassis. You may be lucky to find one if you carry out your search deligently but most RC cars with the almost ready to ride (ARR) will work just fine.
 Here's what I came up with;
