@@ -1,7 +1,7 @@
 
 # Building a small scale autonomous driving car using machine learning. 
 
-This guide is based on the open source [DIY Robocars] (https://diyrobocars.com/) project so first of all, a huge thank you to that community and its contributors.
+This guide is based on the open source [DIY Robocars](https://diyrobocars.com/) project so first of all, a huge thank you to that community and its contributors.
 
 What I am going to build is a self-driving car at a 1/16 scale. The overall cost of the project will be around £250, depending on where you purchase parts and how good you are at shoplifting.
 
@@ -27,7 +27,7 @@ The main goal of this project is to focus on the learning experience as a whole.
 Here is the *bill of materials* for the robocar
 
 
-| Supplier     | Approximate Price [£] | Tag  | Qty | Part description                                                                                                                                                       |
+| Supplier     | Approximate Cost (£) | Tag  | Qty | Part description                                                                                                                                                       |
 |--------------|-------------|----------------|-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Amazon     | 31          | R Pi           | 1   | Raspberry Pi 3 Model B Quad Core CPU 1.2 GHz 1 GB RAM Motherboard                                                                                 |
 | Amazon     | 11          | SD             | 1   | SanDisk Ultra 32GB microSDHC Memory Card + SD Adapter with A1 App Performance up to 98MB/s, Class 10, U1 FFP                                                                         |
@@ -41,7 +41,7 @@ Here is the *bill of materials* for the robocar
 | HobbyKing    |  2          | Battery Bag    | 1   | Turnigy® Fire Retardant LiPoly Battery Bag (190x68x50mm) (1pc)  |
 | **Total**   | **232**     |                |     |
 
-The Exceed Magnet as recommended on [DIY Robocars] (https://diyrobocars.com/) is basically sold out in the UK, so I spent some good time trying to figure out an alternative. From ebay to aliexpress to amazon to hobbyking untill I found the 1/16 truck chassis. You may be lucky to find one if you carry out your search deligently but most RC cars with the almost ready to ride (ARR) will work just fine.
+The Exceed Magnet as recommended on [DIY Robocars](https://diyrobocars.com/) is basically sold out in the UK, so I spent some good time trying to figure out an alternative. From ebay to aliexpress to amazon to hobbyking untill I found the 1/16 truck chassis. You may be lucky to find one if you carry out your search deligently but most RC cars with the almost ready to ride (ARR) will work just fine.
 Here's what I came up with;
 
 |  [![car](https://github.com/MarcusJones/ai.drive/blob/master/Images/Car1.jpg)]() |  [![Chassis](https://github.com/MarcusJones/ai.drive/blob/master/Images/Chassis.jpg)]() | 
