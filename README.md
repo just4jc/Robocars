@@ -19,9 +19,11 @@ I'll look at each of the following steps in turn:
 
 The main goal of this project is to focus on the learning experience as a whole. The objective is to make and race pro-level autonomous car on a budget. That means it's smaller than the regular car (from go-kart size, down to 1/16th scale) and can be used indoors.
 
-But just because it's small and cheap doesn't mean that it can't run real autonomous car software on them. 
+But just because it's small and cheap doesn't mean that it can't run real autonomous car software on them. As a matter of fact, both the Robocar and the real autonomous driving cars like the Google Waymo, Tesla, etc  are both on the kind of thesame continuum. They both use thesame technology, from Tensorflow to OpenCV to sensors and the cloud. But the cost of the robocar is roughly $200 while that of Google Waymo? $150,000? 
 
 [![Compare](https://github.com/udohsolomon/Robocars/blob/master/Images/Robocar_compare.PNG)]()
+
+**Why do we do this?** We do this because we always do things they don't do. We crash all the time and that helps us to iterate really fast and nobody gets hurt. Secondary, we race wheel-to-wheel and that is something no autonomous driving car manufacturers does. We race wheel-to-wheel every weekend. This is how some of the best automobile makers innovate. They race wheel-to-wheel. 
 
 Rather than doing all processing on-board, this DIY Robocar tends to transmit the data from its on-board sensors (cameras, sonar, lidar, radar, GPS or whatever else I have) via Wifi to a laptop that runs pro-grade AI and robotics software, including TensorFlow, ROS and the rest of the Udacity Self-Driving Car nanodegree toolchain.
 
