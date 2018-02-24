@@ -60,6 +60,10 @@ Here's the marketing video;
 
 [![Video](https://img.youtube.com/vi/GdtnAzs16lQ/0.jpg)](https://www.youtube.com/watch?v=GdtnAzs16lQ)
 
+The Raspberry Pi model 3 is the central computer of the Robocar. Robocar use Model B ( A1.2GHz 64-bit quad-core ARMv8 CPU, 1GB RAM), a small but powerful computer.
+
+[![car](https://github.com/udohsolomon/Robocars/blob/master/Images/raspberry.jpg)]()
+
 Next steps: 
 - **Mounting:** Obviously the stock 3D printed parts are not going to fit, so will need to improvise. I am considering using a cardboard. I want to make a design with flexibility for mounting more sensors and also good compactment for placing the power bank. I will wait until the car arrives to make measurements. 
 - **Software Installation**
