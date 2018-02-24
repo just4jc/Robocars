@@ -23,7 +23,7 @@ But just because it's small and cheap doesn't mean that it can't run real autono
 
 [![Compare](https://github.com/udohsolomon/Robocars/blob/master/Images/Robocar_compare.PNG)]()
 
-**Why do we do this?** We do this because we always do things they don't do. We crash all the time and that helps us to iterate really fast and nobody gets hurt. Secondary, we race wheel-to-wheel and that is something no autonomous driving car manufacturers does. We race wheel-to-wheel every weekend. This is how some of the best automobile makers innovate. They race wheel-to-wheel. 
+**Why do we do this?** We do this because we always do things they don't, we crash all the time and that helps us to iterate really fast and nobody gets hurt. Secondly, we race wheel-to-wheel and that is something no autonomous driving car manufacturer does. We race wheel-to-wheel every weekend. This is how some of the best automobile makers innovate. They race wheel-to-wheel. 
 
 Rather than doing all processing on-board, this DIY Robocar tends to transmit the data from its on-board sensors (cameras, sonar, lidar, radar, GPS or whatever else I have) via Wifi to a laptop that runs pro-grade AI and robotics software, including TensorFlow, ROS and the rest of the Udacity Self-Driving Car nanodegree toolchain.
 
