@@ -19,7 +19,11 @@ I'll look at each of the following steps in turn:
 
 The main goal of this project is to focus on the learning experience as a whole. The objective is to make and race pro-level autonomous car on a budget. That means it's smaller than the regular car (from go-kart size, down to 1/16th scale) and can be used indoors.
 
-But just because it's small and cheap doesn't mean that it can't run real autonomous car software on them. Rather than doing all processing on-board, this DIY Robocar tends to transmit the data from its on-board sensors (cameras, sonar, lidar, radar, GPS or whatever else I have) via Wifi to a laptop that runs pro-grade AI and robotics software, including TensorFlow, ROS and the rest of the Udacity Self-Driving Car nanodegree toolchain.
+But just because it's small and cheap doesn't mean that it can't run real autonomous car software on them. 
+
+[![Compare](https://github.com/udohsolomon/Robocars/blob/master/Images/Robocar_compare.PNG)]()
+
+Rather than doing all processing on-board, this DIY Robocar tends to transmit the data from its on-board sensors (cameras, sonar, lidar, radar, GPS or whatever else I have) via Wifi to a laptop that runs pro-grade AI and robotics software, including TensorFlow, ROS and the rest of the Udacity Self-Driving Car nanodegree toolchain.
 
 
 ## 2. Hardware
@@ -44,7 +48,7 @@ Here is the *bill of materials* for the robocar
 The Exceed Magnet as recommended on [DIY Robocars](https://diyrobocars.com/) is basically sold out in the UK, so I spent some good time trying to figure out an alternative. From ebay to aliexpress to amazon to hobbyking untill I found the 1/16 truck chassis. You may be lucky to find one if you carry out your search deligently but most RC cars with the almost ready to ride (ARR) will work just fine.
 Here's what I came up with;
 
-|  [![car](https://github.com/MarcusJones/ai.drive/blob/master/Images/Car1.jpg)]() |  [![Chassis](https://github.com/MarcusJones/ai.drive/blob/master/Images/Chassis.jpg)]() | 
+|  [![car](https://github.com/udohsolomon/Robocars/blob/master/Images/Car1.jpg)]() |  [![Chassis](https://github.com/udohsolomon/Robocars/blob/master/Images/Chassis.jpg)]() | 
 |:---:|:---:|
 | Car | Chassis |
 
