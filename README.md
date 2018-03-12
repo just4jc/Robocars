@@ -14,7 +14,7 @@ I'll look at each of the following steps in turn:
 3. Software
 4. Training the model
 5. Performance analysis and visualization
-5. Racing
+6. Racing
 
 ## 1. Overall goals
 
@@ -67,7 +67,7 @@ The Raspberry Pi model 3 is the central computer of the Robocar. Robocar uses Mo
 
 Next steps: 
 - **Mounting:** Obviously the stock 3D printed parts are not going to fit, so will need to improvise. I am considering using a cardboard. I want to make a design with flexibility for mounting more sensors and also good compactment for placing the power bank. I will wait until the car arrives to make measurements. 
-- **Software Installation**
+
 
 Finally my RC car and other hardware parts arrived except the battery charger which was shipped all the way from Hong Kong. This is one thing you should consider when ordering from Hobbyking. They have multiple warehouses across the world and they may ship from anyone that has the parts if the one closest to you has run out of stock. 
 
@@ -75,10 +75,32 @@ The figure below shows the various parts of the RC car I ordered
 
 [![parts](https://github.com/udohsolomon/Robocars/blob/master/Images/parts.jpg)]()
 
-Obviously I don't have the 3D printed parts so the best I could do was to improvise. I used cardboards instead for prototyping the structure. They are lightweight, easy to use and most importantly get the job done. However, for pro racing competitions I would consider using the 3D printed prototype. 
+Obviously I don't have the 3D printed parts so the best I could do was to improvised. I used cardboards instead for prototyping the structure. They are lightweight, easy to use and most importantly get the job done. However, for pro racing competitions I would consider using the 3D printed prototype. 
 
+Here is the picture of the assembled robocar in its naked form.
 
+[![robocar](https://github.com/udohsolomon/Robocars/blob/master/Images/robocar.jpg)]()
 
+### Electrical systems 
+
+The figure below shows the electrical system of the robocar with my little modification.
+[![PiDiag](https://github.com/udohsolomon/Robocars/blob/master/Images/pidiag.jpg)]()
+
+As stated earlier, the Exceed Magnet was out of stock in Amazon Europe and I settled for the Bad Bug instead after extensive research for alternative RC car. The main difference in chassis, compared to the Exceed Magnet, is the battery pack. In this case, the double 1800mAh 2s 20c batteries store significantly more energy, but critically, also have a higher discharge rate, which is represented by the **C-Rating**; 
+
+```Max Current Draw = Capacity x C-Rating```
+
+Secondly, the Bad Bug car has twice the voltage rating compared to the Exceed Magnet. These two factors lead the car to have **way too much power** to make any real autonomous driving tests possible in this early phase. 
+
+The table below lists the key parameters, and the third entry in the table is the current solution for de-powering the chassis: removing one battery from the power bank.
+
+| Variant                              | Technology | Voltage <br> [V] | Capacity <br> [mAH] | Discharge <br> [C-Rating] | Configuration <br>[S] |
+|---------------------------------------------|------------|------------------|---------------------|---------------------------|-----------------------|
+| **Exceed Magnet** | NiMh       | 7.2              | 1100                | Much less than 20C        | ?                     |
+| **HobbyKing Bad Bug**           <br>        | LiPo       | 14.4             | 3400                | More than 20C             | 2S * 2 = **4S1P**     |
+| **Alternate Bad-Bug  **    <br>   | LiPo       | 7.2              | 1700                | 20C                       | 2S * 2 = **2S1P**     |
+
+This is therefore my current solution. Of course, I can put the second battery in parallel instead of removing it completely from the circuit. 
 
 
 ## 3. Software
