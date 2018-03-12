@@ -3,7 +3,7 @@
 
 This project is based on the open source [DIY Robocars](https://diyrobocars.com/) project so first of all, a huge thank you to that community and its contributors.
 
-What I am going to build is a self-driving car at a 1/16 scale. The overall cost of the project will be around £250, depending on where you purchase parts and how good you are at shoplifting.
+What I am going to build is a self-driving car at a 1/16 scale, a low-cost autonomous car testbed, which is based on the state-of-the-art end-to-end deep learning with the goal of lowering the economic and safety-related barriers to the research in autonomous cars.  The overall cost of the project will be around £250, depending on where you purchase parts and how good you are at shoplifting.
 
 The DIY Robocar will navigate itself around a track autonomously without any input from its owner, using computer vision and machine learning running on a tiny onboard computer, the Raspberry Pi.
 
@@ -13,6 +13,7 @@ I'll look at each of the following steps in turn:
 2. Hardware
 3. Software
 4. Training the model
+5. Performance analysis and visualization
 5. Racing
 
 ## 1. Overall goals
@@ -60,13 +61,25 @@ Here's the marketing video;
 
 [![Video](https://img.youtube.com/vi/GdtnAzs16lQ/0.jpg)](https://www.youtube.com/watch?v=GdtnAzs16lQ)
 
-The Raspberry Pi model 3 is the central computer of the Robocar. Robocar use Model B ( A1.2GHz 64-bit quad-core ARMv8 CPU, 1GB RAM), a small but powerful computer.
+The Raspberry Pi model 3 is the central computer of the Robocar. Robocar uses Model B ( A1.2GHz 64-bit quad-core ARMv8 CPU, 1GB RAM), a small but powerful computer.
 
 [![car](https://github.com/udohsolomon/Robocars/blob/master/Images/raspberry.jpg)]()
 
 Next steps: 
 - **Mounting:** Obviously the stock 3D printed parts are not going to fit, so will need to improvise. I am considering using a cardboard. I want to make a design with flexibility for mounting more sensors and also good compactment for placing the power bank. I will wait until the car arrives to make measurements. 
 - **Software Installation**
+
+Finally my RC car and other hardware parts arrived except the battery charger which was shipped all the way from Hong Kong. This is one thing you should consider when ordering from Hobbyking. They have multiple warehouses across the world and they may ship from anyone that has the parts if the one closest to you has run out of stock. 
+
+The figure below shows the various parts of the RC car I ordered
+
+[![parts](https://github.com/udohsolomon/Robocars/blob/master/Images/parts.jpg)]()
+
+Obviously I don't have the 3D printed parts so the best I could do was to improvise. I used cardboards instead for prototyping the structure. They are lightweight, easy to use and most importantly get the job done. However, for pro racing competitions I would consider using the 3D printed prototype. 
+
+
+
+
 
 ## 3. Software
 
