@@ -7,7 +7,7 @@ This project is based on the open source [DIY Robocars](https://diyrobocars.com/
 
 What I am going to build is a self-driving car at a 1/16 scale, a low-cost autonomous car testbed, which is based on the state-of-the-art end-to-end deep learning with the goal of lowering the economic and safety-related barriers to the research in autonomous cars.  The overall cost of the project will be around £250, depending on where you purchase parts and how good you are at shoplifting.
 
-The DIY Robocar will navigate itself around a track autonomously without any input from its owner, using computer vision and machine learning running on a tiny onboard computer, the Raspberry Pi.
+The DIY Robocar will navigate itself around a track autonomously without any input from its owner, using computer vision and machine learning running on a tiny onboard computer, the Raspberry Pi. The network receives an image  frame  from  a  single  forward  looking  camera  as  input and  generates  a  predicted  steering  angle  value  as  output  at each  control  period  in real-time.  The  network  has  9  layers, about  27  million  connections  and  250  thousand  parameters (weights).  The  network  architecture  is  identical  to  that  of NVIDIA’s  DAVE-2  self-driving  car,  which  uses  a  much more  powerful  computer  (Drive  PX  computer)  than  a Raspberry  Pi. 
 
 I'll look at each of the following steps in turn:
 
