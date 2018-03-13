@@ -121,18 +121,18 @@ The software installation was pretty straight forward, thanks to the donkeycar d
 
 1. Install software to the Raspberry Pi
    * a. Write the project disk image to the SD card
-   * b. Wrote WiFi access to ```/etc/wpa_supplicant/wpa_supplicant.conf```
-   * c. Hostname remains as ```d2``` for now
-   * d. Power on RPi, have a keyboard and monitor handy for troubleshooting
-	e. Test: Ping d2.local 
-2. Installing software on the host (linux on my laptop)
-* a. Tensorflow and Keras
-* b. Clone the source for the 'donkeycar' project, the python code for running the vehicle
+   * b. Write WiFi access to ```/etc/wpa_supplicant/wpa_supplicant.conf```
+   * c. Make hostname as ```d2```
+   * d. Power on rPi, have a usb keyboard and monitor handy for troubleshooting unless you know how to hack the wifi router to get the rPi IP address
+   * e. Test: Ping d2.local 
+2. Installing software on the host
+   * a. Tensorflow and Keras
+   * b. Clone the source for the 'donkeycar' project, the python code for running the vehicle
 3. Testing
-* a. ```ping d2.local ```
-* b. SSH into the RPi ```ssh pi@d2.local```
-* c. Git-pull the donkeycar repo
-* d. Start a new car software by template ```donkey createcar --template donkey2 --path ~/d2```
+   * a. ```ping d2.local ```
+   * b. SSH into the RPi ```ssh pi@d2.local```
+   * c. Git-pull the donkeycar repo
+   * d. Start a new car software by template ```donkey createcar --template donkey2 --path ~/d2```
 
 ### Running
 
