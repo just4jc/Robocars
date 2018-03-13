@@ -117,6 +117,31 @@ This is therefore my current solution. Of course, I can put the second battery i
 
 ## 3. Software
 
+The software installation was pretty straightforward, thanks to the donkeycar documentation and the USB disk image. Here's a quick summary of the process, refer to the donkey page for details.
+
+1. Install software to the Raspberry Pi
+	a. Write the project disk image to the SD card
+	b. Wrote WiFi access to ```/etc/wpa_supplicant/wpa_supplicant.conf```
+	c. Hostname remains as ```d2``` for now
+	d. Power on RPi, have a keyboard and monitor handy for troubleshooting
+	e. Test: Ping d2.local 
+2. Installing software on the host (linux on my laptop)
+	a. Tensorflow and Keras
+	b. Clone the source for the 'donkeycar' project, the python code for running the vehicle
+3. Testing
+	a. ```ping d2.local ```
+	b. SSH into the RPi ```ssh pi@d2.local```
+	c. Git-pull the donkeycar repo
+	d. Start a new car software by template ```donkey createcar --template donkey2 --path ~/d2```
+
+### Running
+
+With the hardware and software set, the normal procedure becomes;
+1. ```source activate drive``` environment in linux
+1. ```ssh pi@d2.local```
+1. Run the ```python manage.py drive``` command to start the car and web service
+1. Access the car at ```d2:8887```
+
 
 
 
