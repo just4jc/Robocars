@@ -1,6 +1,8 @@
 
 # Building a small scale autonomous driving car using machine learning. 
 
+Autonomous cars have been a topic of increasing interest recently as many companies are actively developing related hardware and software technologies towards fully autonomous driving capability with no human intervention. Machine learning have been successfully applied in various perception and control tasks in recent years and they are beginning to see applications in autonomous driving. From Tesla Model S to Google Waymo to Uber to major auto makers. They are using machine learning for aaplications like vision based real-time obstacle detection and avoidance. More recently, researchers are investigating deep learning end-to-end control of cars and other robots.
+
 This project is based on the open source [DIY Robocars](https://diyrobocars.com/) project so first of all, a huge thank you to that community and its contributors.
 
 What I am going to build is a self-driving car at a 1/16 scale, a low-cost autonomous car testbed, which is based on the state-of-the-art end-to-end deep learning with the goal of lowering the economic and safety-related barriers to the research in autonomous cars.  The overall cost of the project will be around £250, depending on where you purchase parts and how good you are at shoplifting.
@@ -61,7 +63,7 @@ Here's the marketing video;
 
 [![Video](https://img.youtube.com/vi/GdtnAzs16lQ/0.jpg)](https://www.youtube.com/watch?v=GdtnAzs16lQ)
 
-The Raspberry Pi model 3 is the central computer of the Robocar. Robocar uses Model B ( A1.2GHz 64-bit quad-core ARMv8 CPU, 1GB RAM), a small but powerful computer.
+The Raspberry Pi model 3 is the central computer of the Robocar. Robocar uses Model B ( A1.2GHz 64-bit quad-core ARMv8 CPU, 1GB RAM), a small but powerful computer. The raspberry Pi was chosen not only because it is affordable but also because it is a representation of today's mainstream embedded low-end multicore platforms found in smartphones and other embedded devices. 
 
 [![car](https://github.com/udohsolomon/Robocars/blob/master/Images/raspberry.jpg)]()
 
