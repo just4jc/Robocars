@@ -79,11 +79,12 @@ Obviously I don't have the 3D printed parts so the best I could do was to improv
 
 Here is the picture of the assembled robocar in its naked form.
 
-[![robocar](https://github.com/udohsolomon/Robocars/blob/master/Images/robocar.jpg)]()
+[![robocar](https://github.com/udohsolomon/Robocars/blob/master/Images/robocarnude.jpg)]()
 
 ### Electrical systems 
 
 The figure below shows the electrical system of the robocar with my little modification.
+
 [![PiDiag](https://github.com/udohsolomon/Robocars/blob/master/Images/pidiag.jpg)]()
 
 As stated earlier, the Exceed Magnet was out of stock in Amazon Europe and I settled for the Bad Bug instead after extensive research for alternative RC car. The main difference in chassis, compared to the Exceed Magnet, is the battery pack. In this case, the double 1800mAh 2s 20c batteries store significantly more energy, but critically, also have a higher discharge rate, which is represented by the **C-Rating**; 
@@ -97,10 +98,15 @@ The table below lists the key parameters, and the third entry in the table is th
 | Variant                              | Technology | Voltage <br> [V] | Capacity <br> [mAH] | Discharge <br> [C-Rating] | Configuration <br>[S] |
 |---------------------------------------------|------------|------------------|---------------------|---------------------------|-----------------------|
 | **Exceed Magnet** | NiMh       | 7.2              | 1100                | Much less than 20C        | ?                     |
-| **HobbyKing Bad Bug**           <br>        | LiPo       | 14.4             | 3400                | More than 20C             | 2S * 2 = **4S1P**     |
-| **Alternate Bad-Bug  **    <br>   | LiPo       | 7.2              | 1700                | 20C                       | 2S * 2 = **2S1P**     |
+| **HobbyKing Bad Bug**           <br>        | LiPo       | 14.4             | 3600                | More than 20C             | 2S * 2 = **4S1P**     |
+| **My Alternate Bad Bug**    <br>   | LiPo       | 7.2              | 1800                | 20C                       | 2S * 2 = **2S1P**     |
 
 This is therefore my current solution. Of course, I can put the second battery in parallel instead of removing it completely from the circuit. 
+
+**Some few notes on the hardware** 
+
+* The portable iMuto 20000 mAh power bank charger was far too way overkill for this project. I later found out that anything above 5000 mAh will do. 
+* The battery capacity I ordered for was also an overkill but I had to improvised and did some hacking with the electrical system to reduced the it by **50%**.
 
 
 ## 3. Software
