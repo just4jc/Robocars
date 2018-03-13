@@ -81,7 +81,7 @@ Here is the picture of the assembled robocar in its naked form.
 
 [![robocar](https://github.com/udohsolomon/Robocars/blob/master/Images/robocarnude.jpg)]()
 
-### Electrical systems 
+### Electrical and Electronics systems 
 
 The figures below show the electrical system of the robocar with my little modification.
 
@@ -111,8 +111,8 @@ This is therefore my current solution. Of course, I can put the second battery i
 
 **Some few notes on the hardware** 
 
-* The portable iMuto 20000 mAh power bank charger was far too way overkill for this project. I later found out that anything above 5000 mAh will do. 
-* The battery capacity I ordered for was also an overkill but I had to improvised and did some hacking with the electrical system to reduced the it by **50%**.
+* The portable iMuto 20000 mAh power bank charger is far too overkill for this project. I later found out that anything above 5000 mAh will do just fine. 
+* The battery capacity I ordered for is also an overkill but I had to improvised and did some hacking with the electrical system to reduced the it by **50%**.
 
 
 ## 3. Software
