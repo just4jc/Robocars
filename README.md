@@ -89,8 +89,7 @@ The figures below show the electrical system of the robocar with my little modif
 |:---:|
 | Block diagram |
 
-| [![PiDiag](https://github.com/udohsolomon/Robocars/Images/pidiag.jpg)]() |
-
+| [![PiDiag](https://github.com/udohsolomon/Robocars/blob/master/Images/pidiag.jpg)]() |
 |:---:|
 | P&ID |
 
