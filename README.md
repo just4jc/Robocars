@@ -83,11 +83,16 @@ Here is the picture of the assembled robocar in its naked form.
 
 ### Electrical systems 
 
-The figure below shows the electrical system of the robocar with my little modification.
+The figures below show the electrical system of the robocar with my little modification.
 
-|  [![PCA](https://github.com/udohsolomon/Robocars/blob/master/Images/pca.png)]() |  [![PiDiag](https://github.com/udohsolomon/Robocars/blob/master/Images/pidiag.jpg)]() | 
-|:---:|:---:|
-| Block diagram | P&I diagram |
+|  [![PCA](https://github.com/udohsolomon/Robocars/blob/master/Images/pca.png)]() |
+|:---:|
+| Block diagram |
+
+| [![PiDiag](https://github.com/udohsolomon/Robocars/Images/pidiag.jpg)]() |
+
+|:---:|
+| P&ID |
 
 As stated earlier, the Exceed Magnet was out of stock in Amazon Europe and I settled for the Bad Bug instead after extensive research for alternative RC car. The main difference in chassis, compared to the Exceed Magnet, is the battery pack. In this case, the double 1800mAh 2s 20c batteries store significantly more energy, but critically, also have a higher discharge rate, which is represented by the **C-Rating**; 
 
