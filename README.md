@@ -120,10 +120,10 @@ This is therefore my current solution. Of course, I can put the second battery i
 The software installation was pretty straight forward, thanks to the donkeycar documentation and the USB disk image. Here's a quick summary of the process, refer to the donkey page for details.
 
 1. Install software to the Raspberry Pi
-a. Write the project disk image to the SD card
-b. Wrote WiFi access to ```/etc/wpa_supplicant/wpa_supplicant.conf```
-c. Hostname remains as ```d2``` for now
-d. Power on RPi, have a keyboard and monitor handy for troubleshooting
+    a. Write the project disk image to the SD card
+    b. Wrote WiFi access to ```/etc/wpa_supplicant/wpa_supplicant.conf```
+    c. Hostname remains as ```d2``` for now
+    d. Power on RPi, have a keyboard and monitor handy for troubleshooting
 	e. Test: Ping d2.local 
 2. Installing software on the host (linux on my laptop)
 	a. Tensorflow and Keras
