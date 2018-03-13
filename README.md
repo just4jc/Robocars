@@ -142,6 +142,24 @@ With the hardware and software set, the normal procedure becomes;
 3. Run the ```python manage.py drive``` command to start the car and web service
 4. Access the car at ```d2:8887```
 
+### Calibration
+
+The PWM signal is controlled in the ```config.py``` file on the Pi. Two 
+parameters influence the throttle signal - the calibrated maxium, which I set at
+390, and the joystick throttle multiplier, which I incrementally increased from 
+0.50 to 0.95, searching for the **minimum** speed for my current hardware configuration. 
+
+Here is the summary of the configuration parameters; 
+
+```
+THROTTLE_CHANNEL = 0
+THROTTLE_FORWARD_PWM = 390
+THROTTLE_STOPPED_PWM = 370
+THROTTLE_REVERSE_PWM = 350
+JOYSTICK_MAX_THROTTLE = 0.95
+
+```
+
 
 
 
